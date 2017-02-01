@@ -17,4 +17,27 @@
         android:layout_centerInParent="true"
         android:src="@drawable/rail" />
 
+    <TextView
+        android:text="RailGyan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textStyle="normal|bold"
+        android:fontFamily="monospace"
+        android:textSize="36sp"
+        android:layout_marginTop="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Live Rail Info Provider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textStyle="normal|italic"
+        android:textSize="16sp"
+        android:layout_below="@+id/imgLogo"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
 </RelativeLayout>

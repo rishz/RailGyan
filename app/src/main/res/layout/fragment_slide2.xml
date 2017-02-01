@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_dark">
+    android:background="@color/colorAccent">
+    <ImageView
+        android:layout_weight="1"
+        android:src="@drawable/img"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+    <Button
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="LIVE TRAIN STATUS"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:id="@+id/btnTrainStatus"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:fontFamily="serif-monospace"
+        android:textSize="45sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:elevation="10dp"
+        android:background="@android:drawable/btn_default" />
 
 </LinearLayout>

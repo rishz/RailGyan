@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_train_status"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rishabhshukla.rubio.TrainStatus"
+    android:orientation="vertical"
+    android:weightSum="18">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Enter Train No.:"
+            android:textStyle="normal|bold"
+            android:textSize="15sp"
+            android:textAlignment="textStart"
+            android:paddingLeft="18dp"
+            android:fontFamily="monospace"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:id="@+id/etTrainNo" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Set Date:"
+            android:textStyle="normal|bold"
+            android:textSize="15sp"
+            android:textAlignment="textStart"
+            android:paddingLeft="20dp"
+            android:fontFamily="monospace"/>
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textStyle="normal|bold"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnTrainInfo"
+        android:layout_gravity="center"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Get Train Info"
+        android:background="@color/colorPrimary"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <android.support.v7.widget.CardView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:id="@+id/card"
+        android:layout_height="352dp"
+        android:paddingBottom="20dp"
+        app:cardElevation="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="@android:color/holo_red_light"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="normal|bold"
+                android:textSize="16dp"
+                android:id="@+id/tvPosition" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_weight="1"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="15dp"
+                    android:id="@+id/tvJourneyStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal|bold"
+                    android:textSize="16dp" />
+                <TextView
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:layout_weight="1"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal|bold"
+                    android:textSize="16dp"
+                    android:id="@+id/tvStartDate" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:paddingBottom="10dp"
+                    android:layout_weight="7"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="15dp"
+                    android:id="@+id/tvCurrentStnDisplay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal|bold"
+                    android:textSize="16dp" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    app:fabSize="mini"
+                    app:srcCompat="@drawable/arrow"
+                    android:id="@+id/fabStn"
+                    app:backgroundTint="@android:color/holo_orange_light" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/rv"
+                android:layout_height="210dp" />
+
+
+        </LinearLayout>
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

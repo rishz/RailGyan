@@ -1,0 +1,229 @@
+{
+  "route": [
+    {
+      "status": "0 mins late",
+      "has_arrived": true,
+      "actdep": "20:00",
+      "day": 0,
+      "actarr": "00:00",
+      "no": 1,
+      "actarr_date": "28 Jan 2017",
+      "distance": 0,
+      "has_departed": true,
+      "schdep": "20:00",
+      "station": "SBC",
+      "scharr_date": "28 Jan 2017",
+      "scharr": "Source",
+      "latemin": 0,
+      "station_": {
+        "name": "BANGALORE CY JN",
+        "code": "SBC"
+      }
+    },
+    {
+      "status": "11 mins late",
+      "has_arrived": false,
+      "actdep": "22:50",
+      "day": 0,
+      "actarr": "22:49",
+      "no": 2,
+      "actarr_date": "28 Jan 2017",
+      "distance": 158,
+      "has_departed": false,
+      "schdep": "22:40",
+      "station": "SSPN",
+      "scharr_date": "28 Jan 2017",
+      "scharr": "22:38",
+      "latemin": 11,
+      "station_": {
+        "name": "SAI P NILAYAM",
+        "code": "SSPN"
+      }
+    },
+    {
+      "status": "0 mins late",
+      "has_arrived": false,
+      "actdep": "07:50",
+      "day": 1,
+      "actarr": "07:35",
+      "no": 3,
+      "actarr_date": "29 Jan 2017",
+      "distance": 632,
+      "has_departed": false,
+      "schdep": "07:50",
+      "station": "SC",
+      "scharr_date": "29 Jan 2017",
+      "scharr": "07:35",
+      "latemin": 0,
+      "station_": {
+        "name": "SECUNDERABAD JN",
+        "code": "SC"
+      }
+    },
+    {
+      "status": "0 mins late",
+      "has_arrived": false,
+      "actdep": "09:30",
+      "day": 1,
+      "actarr": "09:28",
+      "no": 4,
+      "actarr_date": "29 Jan 2017",
+      "distance": 772,
+      "has_departed": false,
+      "schdep": "09:30",
+      "station": "KZJ",
+      "scharr_date": "29 Jan 2017",
+      "scharr": "09:28",
+      "latemin": 0,
+      "station_": {
+        "name": "KAZIPET JN",
+        "code": "KZJ"
+      }
+    },
+    {
+      "status": "0 mins late",
+      "has_arrived": false,
+      "actdep": "12:55",
+      "day": 1,
+      "actarr": "12:45",
+      "no": 5,
+      "actarr_date": "29 Jan 2017",
+      "distance": 1015,
+      "has_departed": false,
+      "schdep": "12:55",
+      "station": "BPQ",
+      "scharr_date": "29 Jan 2017",
+      "scharr": "12:45",
+      "latemin": 0,
+      "station_": {
+        "name": "BALHARSHAH",
+        "code": "BPQ"
+      }
+    },
+    {
+      "status": "0 mins late",
+      "has_arrived": false,
+      "actdep": "15:30",
+      "day": 1,
+      "actarr": "15:20",
+      "no": 6,
+      "actarr_date": "29 Jan 2017",
+      "distance": 1227,
+      "has_departed": false,
+      "schdep": "15:30",
+      "station": "NGP",
+      "scharr_date": "29 Jan 2017",
+      "scharr": "15:20",
+      "latemin": 0,
+      "station_": {
+        "name": "NAGPUR",
+        "code": "NGP"
+      }
+    },
+    {
+      "status": "0 mins late",
+      "has_arrived": false,
+      "actdep": "21:30",
+      "day": 1,
+      "actarr": "21:20",
+      "no": 7,
+      "actarr_date": "29 Jan 2017",
+      "distance": 1615,
+      "has_departed": false,
+      "schdep": "21:30",
+      "station": "BPL",
+      "scharr_date": "29 Jan 2017",
+      "scharr": "21:20",
+      "latemin": 0,
+      "station_": {
+        "name": "BHOPAL  JN",
+        "code": "BPL"
+      }
+    },
+    {
+      "status": "0 mins late",
+      "has_arrived": false,
+      "actdep": "00:56",
+      "day": 2,
+      "actarr": "00:51",
+      "no": 8,
+      "actarr_date": "30 Jan 2017",
+      "distance": 1905,
+      "has_departed": false,
+      "schdep": "00:56",
+      "station": "JHS",
+      "scharr_date": "30 Jan 2017",
+      "scharr": "00:51",
+      "latemin": 0,
+      "station_": {
+        "name": "JHANSI JN",
+        "code": "JHS"
+      }
+    },
+    {
+      "status": "0 mins late",
+      "has_arrived": false,
+      "actdep": "03:30",
+      "day": 2,
+      "actarr": "03:28",
+      "no": 9,
+      "actarr_date": "30 Jan 2017",
+      "distance": 2121,
+      "has_departed": false,
+      "schdep": "03:30",
+      "station": "AGC",
+      "scharr_date": "30 Jan 2017",
+      "scharr": "03:28",
+      "latemin": 0,
+      "station_": {
+        "name": "AGRA CANTT",
+        "code": "AGC"
+      }
+    },
+    {
+      "status": "0 mins late",
+      "has_arrived": false,
+      "actdep": "00:00",
+      "day": 2,
+      "actarr": "05:55",
+      "no": 10,
+      "actarr_date": "30 Jan 2017",
+      "distance": 2308,
+      "has_departed": false,
+      "schdep": "Destination",
+      "station": "NZM",
+      "scharr_date": "30 Jan 2017",
+      "scharr": "05:55",
+      "latemin": 0,
+      "station_": {
+        "name": "HAZRAT NIZAMUDDIN",
+        "code": "NZM"
+      }
+    }
+  ],
+  "response_code": 200,
+  "position": "Train departed from (REPI) and late by 0 minutes.",
+  "current_station": {
+    "status": "17 mins late",
+    "has_arrived": true,
+    "actdep": "22:27",
+    "day": 0,
+    "actarr": "22:27",
+    "no": 2,
+    "actarr_date": "28 Jan 2017",
+    "distance": 127,
+    "has_departed": true,
+    "schdep": "22:10",
+    "station": "REPI",
+    "scharr_date": "28 Jan 2017",
+    "scharr": "22:10",
+    "latemin": 17,
+    "station_": {
+      "name": "",
+      "code": "REPI"
+    }
+  },
+  "error": "",
+  "start_date": "28 Jan 2017",
+  "train_number": "22693"
+}

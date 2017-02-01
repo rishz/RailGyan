@@ -1,0 +1,37 @@
+{
+  "train": {
+    "number": "22693",
+    "name": "RAJDHANI EXP",
+    "days": [
+      {
+        "day-code": "SUN",
+        "runs": "N"
+      },
+      {
+        "day-code": "MON",
+        "runs": "N"
+      },
+      {
+        "day-code": "TUE",
+        "runs": "Y"
+      },
+      {
+        "day-code": "WED",
+        "runs": "N"
+      },
+      {
+        "day-code": "THU",
+        "runs": "N"
+      },
+      {
+        "day-code": "FRI",
+        "runs": "Y"
+      },
+      {
+        "day-code": "SAT",
+        "runs": "Y"
+      }
+    ]
+  },
+  "response_code": 200
+}
